@@ -1,20 +1,30 @@
-# Dream Interpretation Study Library
+# Dream Interpretation — Study Library
 
-A structured collection of course transcripts and study materials.
+A navigable, module-by-module study library for Streams Ministries dream interpretation teachings.
 
-## Organization
+## Start here
+- [Module 01 — Introduction](modules/01-introduction/outline.md)
+- [Master subject outline](master/outline.md)
+- [Editorial and linking rules](CONTRIBUTING.md)
 
-Each module will contain six Markdown documents:
+## Module 01 — Introduction
+[Transcript](modules/01-introduction/transcript.md) · [Outline](modules/01-introduction/outline.md) · [Detailed notes](modules/01-introduction/notes.md) · [Summary](modules/01-introduction/summary.md) · [Nuggets](modules/01-introduction/nuggets.md) · [Nutshell](modules/01-introduction/nutshell.md)
 
-1. `transcript.md` — original lesson transcript, preserving the speaker's words.
-2. `outline.md` — navigable subject outline with major points and timestamps when available.
-3. `notes.md` — detailed teaching notes, with source references.
-4. `summary.md` — condensed lesson overview.
-5. `nuggets.md` — memorable insights and key principles.
-6. `nutshell.md` — the lesson's essential message in a few sentences.
+## Master study library
+[Outline](master/outline.md) · [Notes](master/notes.md) · [Summary](master/summary.md) · [Nuggets](master/nuggets.md) · [Nutshell](master/nutshell.md)
 
-Modules belong in `modules/01-introduction/`, `modules/02-.../`, etc.
+## How the layers work
+| Layer | Purpose |
+| --- | --- |
+| Transcript | Faithful record of what was said; timestamps and uncertainty markers |
+| Outline | Subject transitions, major keys, and links to the source |
+| Notes | Full organized teaching with Scripture, context, and application |
+| Summary | Major ideas in a compact overview |
+| Nuggets | Memorable, independently useful insights |
+| Nutshell | Central message in 1–3 sentences |
+| Master files | Cross-module topic navigation and integrated synthesis |
 
-The `master/` directory will contain an outline, notes, summary, nuggets, and nutshell synthesizing all modules. Cross-file Markdown links will connect topics and lessons.
+**Current status:** The first audio recording was supplied in chat but has **not been transcribed**. Module 01 files are structured placeholders, not invented course content. The audio itself is not stored in this public repository. We should confirm redistribution rights before committing a full copyrighted lesson transcript.
 
-> Study notes should distinguish the instructor's claims, explicit biblical text, and interpretations. Transcripts should remain faithful to the original recording.
+### Editorial principles
+Keep the instructor's claims distinct from biblical text and from the editor's interpretation. Preserve uncertainties rather than guessing. See [CONTRIBUTING.md](CONTRIBUTING.md).
